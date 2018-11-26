@@ -13,5 +13,8 @@ public class Singleton {
     public static void main(String[] args) {
         Hungry hungry = Hungry.getInstance();
         hungry.call();
+
+        Slacker slacker = Slacker.getInstance();
+        slacker.call();
     }
 }
