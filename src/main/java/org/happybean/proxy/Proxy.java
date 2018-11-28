@@ -22,27 +22,27 @@ public class Proxy {
     public static void main(String[] args) throws IOException, ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         //静态代理
         Car car = new Car();
-//        Moveable car1 = new CarProxy1();
-//        car1.move();
-//        Moveable car2 = new CarProxy2(car);
-//        car2.move();
-//
-//        //jdk动态代理
-//        Class<? extends Car> clazz = car.getClass();
-//        InvocationHandler handler = new TimeHandler(car);
-//        Moveable moveable
-//                = (Moveable) java.lang.reflect.Proxy
-//                .newProxyInstance(clazz.getClassLoader(), clazz.getInterfaces(), handler);
-//        moveable.move();
-//
-//        //cglib动态代理
-//        CarInterceptor interceptor = new CarInterceptor();
-//        moveable = (Moveable) interceptor.getProxy(car.getClass());
-//        moveable.move();
+        Moveable car1 = new CarProxy1();
+        car1.move();
+        Moveable car2 = new CarProxy2(car);
+        car2.move();
+
+        //jdk动态代理
+        Class<? extends Car> clazz = car.getClass();
+        InvocationHandler handler = new TimeHandler(car);
+        Moveable moveable
+                = (Moveable) java.lang.reflect.Proxy
+                .newProxyInstance(clazz.getClassLoader(), clazz.getInterfaces(), handler);
+        moveable.move();
+
+        //cglib动态代理
+        CarInterceptor interceptor = new CarInterceptor();
+        moveable = (Moveable) interceptor.getProxy(car.getClass());
+        moveable.move();
 
         //自定义动态代理
         MyProxyHandler proxyHandler = new MyProxyHandler(car);
-        Moveable moveable = (Moveable) MyProxy.newProxyInstance(Moveable.class,proxyHandler);
+        moveable = (Moveable) MyProxy.newProxyInstance(Moveable.class,proxyHandler);
         moveable.move();
     }
 }
