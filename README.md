@@ -3,6 +3,7 @@
 
 +++++目录
     +adapter：适配器模式
+    +factory：工厂模式
     +proxy：代理模式
     +responsibility：责任链模式
     +singleton：单例模式
