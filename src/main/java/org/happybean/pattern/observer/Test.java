@@ -1,5 +1,8 @@
 package org.happybean.pattern.observer;
 
+import org.happybean.pattern.observer.jdk.TVObserver;
+import org.happybean.pattern.observer.jdk.WeatherSubject;
+
 /**
  * @author wgt
  * @date 2018-11-29
@@ -25,5 +28,13 @@ public class Test {
 
         System.out.println(((ConcreteObserver)observerA).getObserverState());
         System.out.println(((ConcreteObserver)observerB).getObserverState());
+
+        WeatherSubject weatherSubject = new WeatherSubject();
+
+        TVObserver observer = new TVObserver();
+        observer.setObserverName("北京电视台");
+
+        weatherSubject.addObserver(observer);
+        weatherSubject.setContent("天气晴，气温16°");
     }
 }

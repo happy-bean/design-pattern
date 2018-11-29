@@ -7,6 +7,9 @@ import java.util.List;
  * @author wgt
  * @date 2018-11-29
  * @description 目标对象，知道他的观察者，并提供注册（添加）和删除观察者的接口
+ * 两种实现方式
+ * 1.推
+ * 2.拉
  **/
 public class Subject {
 
