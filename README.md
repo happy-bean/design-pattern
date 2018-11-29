@@ -1,5 +1,5 @@
 # design-pattern
-设计模式-java实现
+设计模式-java实现  参考：慕课网https://www.imooc.com
 
 +++++目录
     +adapter：适配器模式
