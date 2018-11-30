@@ -11,6 +11,8 @@ import org.happybean.pattern.observer.jdk.WeatherSubject;
 public class Test {
 
     public static void main(String[] args) {
+
+        //自定义
         ConcreteSubject subject = new ConcreteSubject();
 
         Observer observerA = new ConcreteObserver();
@@ -22,13 +24,14 @@ public class Test {
 
         subject.setSubjectState("no");
 
-        System.out.println(((ConcreteObserver)observerA).getObserverState());
-        System.out.println(((ConcreteObserver)observerB).getObserverState());
+        System.out.println(((ConcreteObserver) observerA).getObserverState());
+        System.out.println(((ConcreteObserver) observerB).getObserverState());
         subject.setSubjectState("ok");
 
-        System.out.println(((ConcreteObserver)observerA).getObserverState());
-        System.out.println(((ConcreteObserver)observerB).getObserverState());
+        System.out.println(((ConcreteObserver) observerA).getObserverState());
+        System.out.println(((ConcreteObserver) observerB).getObserverState());
 
+        //jdk实现
         WeatherSubject weatherSubject = new WeatherSubject();
 
         TVObserver observer = new TVObserver();
