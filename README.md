@@ -5,7 +5,8 @@
 &nbsp;菜鸟教程http://www.runoob.com
 
 +++目录  
-+++++adapter：适配器模式  
++++++adapter：适配器模式
++++++bridge：桥接模式  
 +++++builder：建造者模式  
 +++++factory：工厂模式  
 +++++proxy：代理模式  
