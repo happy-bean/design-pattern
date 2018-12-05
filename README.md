@@ -8,7 +8,8 @@
 +++++adapter：适配器模式  
 +++++bridge：桥接模式  
 +++++builder：建造者模式  
-+++++composite：组合模式  
++++++composite：组合模式   
++++++decorator：装饰器模式   
 +++++factory：工厂模式  
 +++++filter：过滤器模式  
 +++++proxy：代理模式  
