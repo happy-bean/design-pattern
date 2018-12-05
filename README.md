@@ -5,7 +5,7 @@
 &nbsp;菜鸟教程http://www.runoob.com
 
 +++目录  
-+++++adapter：适配器模式  
++++++<a href="https://github.com/happy-bean/design-pattern/tree/master/src/main/java/org/happybean/pattern/adapter">adapter：适配器模式</a>  
 +++++bridge：桥接模式  
 +++++builder：建造者模式  
 +++++composite：组合模式   
@@ -13,6 +13,7 @@
 +++++factory：工厂模式  
 +++++facade：外观模式  
 +++++filter：过滤器模式  
++++++flyweight：享元模式  
 +++++proxy：代理模式  
 +++++responsibility：责任链模式  
 +++++singleton：单例模式  
