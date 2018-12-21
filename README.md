@@ -7,7 +7,7 @@
 菜鸟教程http://www.runoob.com
 
 +++目录  
-+++++<a href="https://github.com/happy-bean/design-pattern/tree/master/src/main/java/org/happybean/pattern/adapter">adapter：适配器模式</a>  
++++++adapter：适配器模式  
 +++++bridge：桥接模式  
 +++++builder：建造者模式  
 +++++command：命令模式  
@@ -19,7 +19,9 @@
 +++++flyweight：享元模式  
 +++++interpreter：解释器模式  
 +++++iterator：迭代器模式  
++++++memento：备忘录模式  
 +++++proxy：代理模式  
 +++++responsibility：责任链模式  
 +++++singleton：单例模式  
-+++++strategy：策略模式  
++++++strategy：策略模式 
++++++Template：模板模式 
