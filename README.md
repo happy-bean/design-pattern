@@ -1,8 +1,10 @@
 # design-pattern
 设计模式-java实现  
-参考：  慕课网https://www.imooc.com  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;菜鸟教程http://www.runoob.com
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+参考：慕课网https://www.imooc.com  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+菜鸟教程http://www.runoob.com
 
 +++目录  
 +++++<a href="https://github.com/happy-bean/design-pattern/tree/master/src/main/java/org/happybean/pattern/adapter">adapter：适配器模式</a>  
@@ -16,6 +18,7 @@
 +++++filter：过滤器模式  
 +++++flyweight：享元模式  
 +++++interpreter：解释器模式  
++++++iterator：迭代器模式  
 +++++proxy：代理模式  
 +++++responsibility：责任链模式  
 +++++singleton：单例模式  
