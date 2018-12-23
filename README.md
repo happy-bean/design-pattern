@@ -18,7 +18,8 @@
 +++++filter：过滤器模式  
 +++++flyweight：享元模式  
 +++++interpreter：解释器模式  
-+++++iterator：迭代器模式  
++++++iterator：迭代器模式 
++++++mediator：中介者模式   
 +++++memento：备忘录模式 
 +++++observer：观察者模式  
 +++++prototype：原型模式   
