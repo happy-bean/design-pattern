@@ -28,4 +28,5 @@
 +++++singleton：单例模式  
 +++++state：状态模式
 +++++strategy：策略模式 
-+++++template：模板模式 
++++++template：模板模式  
++++++visitor：访问者模式
